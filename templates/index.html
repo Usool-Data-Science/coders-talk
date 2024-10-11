@@ -12,11 +12,12 @@
 	<style>
 		:root {
 			--primary-color: #142941;
-			--primary-light: #11529c;
+			--primary-light: #095bb9;
 			--primary-dark: #3a7cbd;
 			--secondary-color: #e8f1f8;
 			--text-color: #dae4ee;
-			--bg-color: #f0f8ff;
+			/* --bg-color: #f0f8ff; */
+			--bg-color: #0e1a25;
 			--message-bg: #e1eeff;
 			--system-message-color: #8fa4b8;
 		}
@@ -27,10 +28,14 @@
 			padding: 0;
 			background-color: var(--bg-color);
 			color: var(--text-color);
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 
 		.chat-container {
 			max-width: 800px;
+			flex-grow: 1;
 			margin: 20px auto;
 			background-color: white;
 			border-radius: 15px;
@@ -161,7 +166,7 @@
 
 <body>
 	<div class="chat-container">
-		<div class="chat-header">Python Chat</div>
+		<div class="chat-header">Coders' Talk</div>
 		<div class="username-container">
 			<span id="current-username"></span>
 			<input type="text" id="username-input" placeholder="New username" />
