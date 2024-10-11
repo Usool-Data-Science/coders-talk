@@ -6,7 +6,7 @@ from typing import Dict, Any, Optional
 app: Flask = Flask(__name__)
 socketio: SocketIO = SocketIO(app)
 
-# Dictionary to store connected users and their details
+# Dictionary to store connected users and their details.
 users: Dict[str, Dict[str, str]] = {}
 
 @app.route('/')

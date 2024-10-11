@@ -1,15 +1,6 @@
-<h1 align="center">Python Chat App 💬</h1>
+<h1 align="center">Coders' Talk 💬</h1>
 
 ![Demo App](/screenshot-for-readme.png)
-
-[Video Tutorial on Youtube](https://youtu.be/h991oLxOxeM)
-
-About This Course:
-
--   🚀 Python virtual environment setup
--   💬 Socket.io and Flask integration
--   ✨ JavaScript on the frontend
--   ✅ Deployment at the end
 
 ### Run the App Locally
 
